@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "RETROTECH";
+    src: url(RETROTECH.ttf);
+}
+
+#titulo{
+    text-align: center;
+    font-size: 52px;
+    font-family: "RETROTECH";
+    color: white;
+
+}
+
+
+.tabla1{
+    width: 800px;
+    height: 500px;
+    border: 5px groove rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: rgb(62, 59, 59);
+    margin: auto;
+    
+
+}
+td{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 5px groove gray;
+    border: 1px outset grey;
+    border-radius: 2px;
+    
+}
+
+
+.marcador{
+    border: 5px solid black;
+    border-bottom-color: white;
+    margin-right: 50px;
+    font-family: "RETROTECH";
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    background-color:black
+    
+        
+}
+span{
+    font-family: "RETROTECH";
+    font-size: 40px;
+    color: red;
+}
+
+
+
+
+.pagina{
+    background-image: url(img/fondoretro.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.fila1{
+    background-color: rgb(62, 59, 59);
+}
+.fila2{
+    background-color: rgb(239, 5, 5);
+}
+.fila3{
+    background-color: rgb(239, 216, 5);
+}
+.fila4{
+    background-color: blue;
+}
+.morao{
+    background-color: violet;
+    
+}
+.fila6{
+    background-color: green;
+    
+}
+
+.nada1{
+    empty-cells: hide;
+}
+.nada{
+    empty-cells: hide;
+}
+.nada3{
+
+    
+    background-image: url(img/barra.png);
+    background-repeat: no-repeat;
+    
+
+
+}
